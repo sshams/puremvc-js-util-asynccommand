@@ -4,7 +4,7 @@ PureMVC is a lightweight framework for creating applications based upon the clas
 * [Discussion](http://forums.puremvc.org/index.php?topic=831.0)
 
 ## Demos
-* [Demo: Lockable Door](https://github.com/sshams/puremvc-js-demo-sequential)
+* [Demo: Sequential](https://github.com/sshams/puremvc-js-demo-sequential)
 
 ## Status
 Production - [Version 1.0](https://github.com/sshams/puremvc-js-util-asynccommand/blob/master/VERSION)
