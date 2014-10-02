@@ -144,7 +144,7 @@ AsyncMacroCommand.prototype.nextCommand = function() {
     if(this.subCommands.length > 0) {
         var commandClassRef = this.subCommands.shift();
         var commandInstance = new commandClassRef();        
-        var isAsync = commandInstance instanceof puremvc.asynccommand.AsyncCommand;
+        var isAsync = commandInstance instanceof puremvc.asynccommand.AsyncCommand || commandInstance instanceof puremvc.asynccommand.AsyncMacroCommand;
         
         var self = this;
         if(isAsync) commandInstance.setOnComplete(function(){self.nextCommand()});
